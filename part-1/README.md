@@ -2,9 +2,9 @@
 
 
 # Desafio 
-  Um simples repositório para gerenciar cadastro e atualização de produtos.
-  O desafio consistia em negar requições de atualização de produto repetidas com o prazo menor de 10 min.
-  Para resolução o body do request foi armazeado em um cache, e quando o usuario faz o pedido de atualização a api confere se a ultima atualização tem o prazo menor de 10 min e se é iqual ao ultimo pedido de atualização.
+ Um simples repositório para gerenciar cadastro e atualização de produtos.
+ O desafio consistia em negar requisições de atualização de produto repetidas com o prazo menor de 10 min.
+ Para resolução o body do request foi armazenado em um cache, e quando o usuário faz o pedido de atualização a api confere se a ultima atualização tem o prazo menor de 10 min e se é igual ao último pedido de atualização.
 
 
 
@@ -30,15 +30,12 @@ Tecnologias utilizadas:
 # Instalação
 
 ### Project
-1.  Clone o repositório:
 
-          git clone https://github.com/PedroFelli/
-
-2. Copie o arquivo `.env-exemplo` para `.env`.
-3. No arquivo `.env`, altere as variaveis com as configurações do seu banco redis.
-4. No arquivo `ormconfig.json`, altere as variaveis com as configurações do seu banco postgres. 
-5. Rode `npm install` ou `yarn` para instalar as dependencias.
-7. Rode `yarn typeorm migration:run` para instalar as migrations.
+1. Copie o arquivo `.env-exemplo` para `.env`.
+2. No arquivo `.env`, altere as variáveis com as configurações do seu banco redis.
+3. No arquivo `ormconfig.json`, altere as variáveis com as configurações do seu banco postgres. 
+4. Rode `npm install` ou `yarn` para instalar as dependencias.
+5. Rode `yarn typeorm migration:run` para instalar as migrations.
 6. Após instalar as dependencias `npm run start` ou `yarn start` para rodar a api .
 
 

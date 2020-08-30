@@ -2,10 +2,7 @@
 
 
 # Desafio 
-  Um simples repositório para ler dump com lista de URLs de imagens de produtos.
-  O desafio consistia em criar um novo dump jutando as imagens dos items repetidos, verificando se a url estava quebrada e com no maximo 3 imagens por item.
-
-
+  Um simples repositório para ler dump com lista de URLs de imagens de produtos. O desafio consistia em criar um novo dump juntando as imagens dos itens repetidos, verificando se a url estava quebrada e com no máximo 3 imagens por item.
 
 # Tecnologias
 Tecnologias utilizadas:
